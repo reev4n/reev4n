@@ -1,16 +1,18 @@
-### Hi there 👋
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-<!--
-**reev4n/reev4n** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+class GitHub_Profile:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def __init__(self):
+        self.name = "Reevan"
+        self.language_spoken = ["en_GB"]
+
+    def say_hi(self):
+        print("l'enfer, c'est les autres")
+
+
+me = GitHub_Profile()
+me.say_hi()
+```
